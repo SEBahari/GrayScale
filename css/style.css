@@ -127,3 +127,61 @@ header .content {
   }
 }
 /*************************************  /Header  */
+/*************************************  About  */
+section.about{
+  background: linear-gradient(to bottom,#000000, #313131);
+  position: relative;
+}
+
+section.about .ipad{
+}
+
+@media (max-width: 576px) {
+  section.about {
+    height: calc(100% - 4rem);
+  }
+
+  section.about .content {
+    padding: 1rem;
+  }
+
+  section.about .content h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  section.about .content p {
+    text-align: center;
+    max-width: 80%;
+  }
+
+  section.about .content a {
+    color: #548B88;
+    text-decoration: none;
+  }
+
+  section.about .content a:hover {
+    text-decoration: underline;
+  }
+
+  section.about .ipad {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media (min-width: 576px) {
+  section.about{
+    height: calc(100% - 4rem);
+  }
+}
+
+@media (min-width: 992px) {
+  section.about{
+    height: calc(100% - 3rem);
+  }
+}
+
+/*************************************  /About  */
