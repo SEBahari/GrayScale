@@ -1,6 +1,7 @@
 html, body {
   height: 100%;
 }
+
 /*************************************  Navbar  */
 .navbar {
   position: fixed;
@@ -63,6 +64,7 @@ html, body {
   }
 
 }
+
 /*************************************  /Navbar  */
 /*************************************  Header  */
 header {
@@ -126,10 +128,11 @@ header .content {
     color: #B5B5B5;
   }
 }
+
 /*************************************  /Header  */
 /*************************************  About  */
-section.about{
-  background: linear-gradient(to bottom,#000000, #313131);
+section.about {
+  background: linear-gradient(to bottom, #000000, #313131);
   position: relative;
 }
 
@@ -142,7 +145,7 @@ section.about .content a:hover {
   text-decoration: underline;
 }
 
-section.about .ipad{
+section.about .ipad {
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -176,7 +179,7 @@ section.about .ipad{
 }
 
 @media (min-width: 576px) {
-  section.about{
+  section.about {
     height: calc(100% - 4rem);
   }
 
@@ -201,7 +204,7 @@ section.about .ipad{
 }
 
 @media (min-width: 992px) {
-  section.about{
+  section.about {
     height: calc(100% - 3rem);
   }
 
@@ -217,7 +220,7 @@ section.about .ipad{
 
   section.about .content p {
     text-align: center;
-    max-width: 80%;
+    max-width: 45%;
     margin-bottom: 7rem !important;
   }
 
