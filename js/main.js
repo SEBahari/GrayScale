@@ -1,5 +1,10 @@
 const navbar = document.getElementById('navbar');
 
+if(window.innerWidth < 992){
+    navbar.classList.remove('navbar-dark');
+    navbar.classList.add('navbar-light');
+}
+
 window.onresize = () => {
     if (window.innerWidth < 992) {
         navbar.style.height = 'auto';
