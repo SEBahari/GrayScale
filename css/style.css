@@ -204,6 +204,26 @@ section.about .ipad{
   section.about{
     height: calc(100% - 3rem);
   }
+
+  section.about .content {
+    padding: 3rem;
+  }
+
+  section.about .content h2 {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 400;
+  }
+
+  section.about .content p {
+    text-align: center;
+    max-width: 80%;
+    margin-bottom: 7rem !important;
+  }
+
+  section.about .ipad {
+    width: 65%;
+  }
 }
 
 /*************************************  /About  */
