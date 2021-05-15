@@ -374,14 +374,20 @@ section.about .ipad {
   .subscribe .email-box input {
     padding: .75rem;
   }
-
-  .subscribe .email-box button {
-
-  }
 }
 
 @media (min-width: 576px) {
+  .contact .subscribe {
+    height: 20rem;
+  }
 
+  .subscribe .email-box input,
+  .subscribe .email-box button {
+    padding: .5rem;
+  }
+  .subscribe .email-box button {
+    font-size: .9rem;
+  }
 }
 
 @media (min-width: 992px) {
