@@ -479,3 +479,41 @@ section.about .ipad {
 }
 
 /*************************************  /Contact Us  */
+/*************************************  Footer  */
+.footer {
+  background-color: #000000;
+  margin-top: -1px;
+}
+
+.footer .social {
+  color: rgba(255, 255, 255, .5);
+  transition: color .3s ease;
+}
+
+.footer .social.twitter:hover {
+  color: #00acee;
+}
+
+.footer .social.facebook:hover {
+  color: #3b5998;
+}
+
+.footer .social.github:hover {
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .footer .social svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .footer .social svg {
+    height: 1.3rem;
+    width: 1.3rem;
+  }
+}
+
+/*************************************  /Footer  */
