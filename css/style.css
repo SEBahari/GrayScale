@@ -385,13 +385,30 @@ section.about .ipad {
   .subscribe .email-box button {
     padding: .5rem;
   }
+
   .subscribe .email-box button {
     font-size: .9rem;
   }
 }
 
 @media (min-width: 992px) {
+  .contact .subscribe {
+    height: 30rem;
+  }
 
+  .subscribe h3 {
+    font-size: 2rem;
+  }
+
+  .contact .email-box {
+    width: 40rem;
+    margin-top: 1rem;
+  }
+
+  .subscribe .email-box input,
+  .subscribe .email-box button {
+    padding: .75rem;
+  }
 }
 
 /*************************************  /Contact Us  */
