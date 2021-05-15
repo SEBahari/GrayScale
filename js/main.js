@@ -1,33 +1,30 @@
 const navbar = document.getElementById('navbar');
 
-if (window.innerWidth < 992) {
+if (window.innerWidth < 992) {                      //  mobile
     navbar.classList.add('navbar-light');
 } else {
-    let st = window.pageYOffset || document.documentElement.scrollTop;
-    if (st === 0) {
-        inTop();
-    } else {
-        notInTop();
-    }
-
+    checkNavSize();
 }
 
 window.onresize = () => {
-    if (window.innerWidth < 992) {
+    if (window.innerWidth < 992) {                  //  mobile
+        navbar.style.height = null;
         navbar.style.minHeight = '4rem';
         navbar.style.backgroundColor = '#fff';
         navbar.classList.remove('navbar-dark');
         navbar.classList.add('navbar-light');
-    } else if (window.pageYOffset <= 40) {
-        navbar.style.minHeight = null;
-        navbar.style.backgroundColor = 'transparent';
-        navbar.classList.remove('navbar-light');
-        navbar.classList.add('navbar-dark');
+    } else {                                        //  desktop
+        checkNavSize();
     }
 };
 
 document.onscroll = function () {
+    checkNavSize();
+};
+
+function checkNavSize() {
     if (window.innerWidth > 992) {
+        navbar.style.minHeight = null;
         let st = window.pageYOffset || document.documentElement.scrollTop;
         if (st > 0) {
             notInTop();
@@ -35,7 +32,7 @@ document.onscroll = function () {
             inTop();
         }
     }
-};
+}
 
 function inTop() {
     console.log('top');
