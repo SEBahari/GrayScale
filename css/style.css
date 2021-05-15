@@ -2,6 +2,7 @@ html, body {
   height: 100%;
 }
 
+/*  Global styles  */
 .btn-teal {
   color: #fff;
   background-color: #64a19d;
@@ -128,8 +129,9 @@ header h1 {
   -webkit-text-fill-color: transparent;
 }
 
-header button {
-  background: #548B88;
+header .start-btn {
+  font-size: 1rem;
+  padding: .9rem 1.4em;
 }
 
 header .content {
@@ -183,6 +185,7 @@ header .content {
 section.about {
   background: linear-gradient(to bottom, #000000, #313131);
   position: relative;
+  margin-top: -2px;
 }
 
 section.about .content a {
@@ -364,6 +367,10 @@ section.about .ipad {
     height: 18rem;
     background-color: #000000;
   }
+
+  .projects .group-projects-container .project:nth-child(2) .project-content {
+    direction: rtl;
+  }
 }
 
 /*************************************  /Projects  */
@@ -377,6 +384,10 @@ section.about .ipad {
 
 .contact .contact-us {
   background-color: #000;
+}
+
+.contact-us .box {
+  border-bottom: 5px solid #63A19D;
 }
 
 .contact-us .box .icon {
@@ -414,10 +425,6 @@ section.about .ipad {
     margin-top: -1px;
   }
 
-  .contact-us .box {
-    border-bottom: 5px solid #63A19D;
-  }
-
   .contact-us .divider {
     width: 4rem;
   }
@@ -432,6 +439,10 @@ section.about .ipad {
     height: 20rem;
   }
 
+  .subscribe .email-box {
+    width: 30rem;
+  }
+
   .subscribe .email-box input,
   .subscribe .email-box button {
     padding: .5rem;
@@ -439,10 +450,6 @@ section.about .ipad {
 
   .subscribe .email-box button {
     font-size: .9rem;
-  }
-
-  .contact-us .box {
-    border-bottom: 7px solid #63A19D;
   }
 
   .contact-us .divider {
@@ -467,10 +474,6 @@ section.about .ipad {
   .subscribe .email-box input,
   .subscribe .email-box button {
     padding: .75rem;
-  }
-
-  .contact-us .box {
-    border-bottom: 6px solid #63A19D;
   }
 
   .contact-us .divider {
