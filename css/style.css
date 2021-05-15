@@ -37,6 +37,16 @@ html, body {
   box-shadow: 0 0 0 0.2rem rgba(123, 175, 172, 0.5);
 }
 
+a {
+  color: #548B88;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #548B88;
+  text-decoration: underline;
+}
+
 /*************************************  Navbar  */
 .navbar {
   position: fixed;
@@ -365,6 +375,32 @@ section.about .ipad {
   color: #FAFAFA;
 }
 
+.contact .contact-us {
+  background-color: #000;
+}
+
+.contact-us .box .icon {
+  color: #63A19D;
+}
+
+.contact-us .box .title {
+  letter-spacing: .2rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.contact-us .divider {
+  width: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #63A19D;
+}
+
+.contact-us .text {
+  letter-spacing: .1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
 
 @media (max-width: 576px) {
   .contact .subscribe {
@@ -373,6 +409,18 @@ section.about .ipad {
 
   .subscribe .email-box input {
     padding: .75rem;
+  }
+
+  .contact-us {
+    margin-top: -1px;
+  }
+
+  .contact-us .box {
+    border-bottom: 5px solid #63A19D;
+  }
+
+  .contact-us .text {
+    letter-spacing: .05rem;
   }
 }
 
