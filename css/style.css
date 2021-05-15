@@ -468,6 +468,14 @@ section.about .ipad {
   .subscribe .email-box button {
     padding: .75rem;
   }
+
+  .contact-us .box {
+    border-bottom: 6px solid #63A19D;
+  }
+
+  .contact-us .divider{
+    width: 6rem;
+  }
 }
 
 /*************************************  /Contact Us  */
