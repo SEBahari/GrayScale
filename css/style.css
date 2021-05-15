@@ -390,7 +390,6 @@ section.about .ipad {
 }
 
 .contact-us .divider {
-  width: 4rem;
   margin-left: auto;
   margin-right: auto;
   border: 3px solid #63A19D;
@@ -419,6 +418,10 @@ section.about .ipad {
     border-bottom: 5px solid #63A19D;
   }
 
+  .contact-us .divider {
+    width: 4rem;
+  }
+
   .contact-us .text {
     letter-spacing: .05rem;
   }
@@ -436,6 +439,14 @@ section.about .ipad {
 
   .subscribe .email-box button {
     font-size: .9rem;
+  }
+
+  .contact-us .box {
+    border-bottom: 7px solid #63A19D;
+  }
+
+  .contact-us .divider{
+    width: 6rem;
   }
 }
 
