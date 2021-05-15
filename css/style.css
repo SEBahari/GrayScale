@@ -445,7 +445,7 @@ section.about .ipad {
     border-bottom: 7px solid #63A19D;
   }
 
-  .contact-us .divider{
+  .contact-us .divider {
     width: 6rem;
   }
 }
@@ -473,7 +473,7 @@ section.about .ipad {
     border-bottom: 6px solid #63A19D;
   }
 
-  .contact-us .divider{
+  .contact-us .divider {
     width: 6rem;
   }
 }
@@ -483,6 +483,37 @@ section.about .ipad {
 .footer {
   background-color: #000000;
   margin-top: -1px;
+}
+
+.footer .social {
+  color: rgba(255, 255, 255, .5);
+  transition: color .3s ease;
+}
+
+.footer .social.twitter:hover {
+  color: #00acee;
+}
+
+.footer .social.facebook:hover {
+  color: #3b5998;
+}
+
+.footer .social.github:hover {
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .footer .social svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .footer .social svg {
+    height: 1.3rem;
+    width: 1.3rem;
+  }
 }
 
 /*************************************  /Footer  */
